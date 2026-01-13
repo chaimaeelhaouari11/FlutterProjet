@@ -1,11 +1,11 @@
-# 🎓 Guide de Présentation du Projet E-Learning - Projet_F
+#  Guide de Présentation du Projet E-Learning - Projet_F
 
 Ce document est destiné à t'aider à comprendre et à présenter notre application, même si tu n'as pas pu assister à toutes les étapes du développement. Voici tout ce qu'il faut savoir pour briller lors de la présentation !
 
-## 📝 Présentation Générale
+## Présentation Générale
 Notre projet est une plateforme de **Masterclass E-Learning** mobile développée avec **Flutter**. L'objectif est d'offrir une expérience d'apprentissage premium, fluide et interactive.
 
-## 🚀 Fonctionnalités Clés à Présenter
+## Fonctionnalités Clés à Présenter
 1.  **Authentification Complète** :
     *   Système de Login/Register avec simulation d'API.
     *   Mode **Invité** pour explorer l'application sans compte.
@@ -29,20 +29,20 @@ Notre projet est une plateforme de **Masterclass E-Learning** mobile développé
     *   **Mode Sombre (Dark Mode)** intégral.
     *   Animations fluides avec `flutter_animate`.
 
-## 🛠 Stack Technique
+## Stack Technique
 *   **Framework** : Flutter (Dart)
 *   **Gestion d'état** : Provider (pour une réactivité maximale)
 *   **Navigation** : GoRouter (gestion propre des routes)
 *   **Base de données** : SQLite (via `DatabaseService`) pour sauvegarder les progrès et les certificats localement.
 *   **Librairies Vidéo** : `youtube_player_flutter` (YouTube) et `chewie` (MP4).
 
-## 🔧 Problèmes Résolus (Points Bonus pendant la présentation !)
+##  Problèmes Résolus (Points Bonus pendant la présentation !)
 Pendant le projet, nous avons surmonté plusieurs défis techniques :
 *   **Compatibilité Vidéo** : Correction des erreurs de flux HTTP sur Android.
 *   **Robustesse UI** : Correction de tous les bugs d'overflow (dépassements de pixels) sur les petits écrans.
 *   **Gestion de la nullité** : Correction d'un bug critique de "Null Check" qui faisait planter le lecteur vidéo.
 
-## 🏃 Comment lancer l'app ?
+##  Comment lancer l'app ?
 1.  Ouvrir le terminal dans le dossier `Projet_F`.
 2.  Lancer `flutter pub get` pour installer les dépendances.
 3.  Lancer `flutter run` pour démarrer l'application.
