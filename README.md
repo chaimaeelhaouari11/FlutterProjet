@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # E-Learning App Flutter
 
 Application mobile e-learning développée avec Flutter.
@@ -71,15 +71,13 @@ Application mobile e-learning développée avec Flutter.
 - Business English
 
 ## Installation
-
-```bash
 flutter pub get
 flutter run
-```
+
 
 ## Structure du Projet
 
-```
+
 lib/
 ├── main.dart
 ├── core/
@@ -101,7 +99,4 @@ lib/
     ├── certificate/
     ├── notifications/
     └── search/
-```
-=======
-# FlutterProjet
->>>>>>> 4621e8eae219b2a6a4bbc7f2cce1e0612fa14442
+
